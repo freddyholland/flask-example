@@ -9,6 +9,10 @@ endpoint_secret = ""
 
 application = Flask(__name__)
 
+@application.route("/")
+def landing():
+    return "..."
+
 @application.route("/webhook")
 def webhook():
     event = None
