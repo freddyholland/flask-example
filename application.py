@@ -9,7 +9,7 @@ endpoint_secret = ""
 
 application = Flask(__name__)
 
-@application.route("/")
+@application.route("/webhook")
 def webhook():
     event = None
     payload = request.data
