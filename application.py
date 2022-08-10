@@ -5,7 +5,7 @@ import stripe
 
 from flask import Flask, jsonify, request
 
-endpoint_secret = ""
+endpoint_secret = "whsec_lPD65FQbsuOLR5q8B1f1vfwKveyL1xyV"
 
 application = Flask(__name__)
 
